@@ -25,7 +25,7 @@ const Home = () => {
                             <h4 className="my-0 fw-normal">Carros (CRUD)</h4>
                         </div>
                         <div className="card-body">
-                            <Link type="button" className="w-100 btn btn-lg btn-primary" to="/carros">Abrir</Link>
+                            <Link type="button" className="w-100 btn btn-lg btn-success" to="/veiculos">Abrir</Link>
                         </div>
                     </div>
                 </div>

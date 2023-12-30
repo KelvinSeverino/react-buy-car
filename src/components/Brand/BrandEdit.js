@@ -82,7 +82,7 @@ const BrandEdit = () => {
                     </div>
                 </form>
                 <div className='container d-flex justify-content-center'>
-                    <div class="btn-group" role="group" aria-label="Basic example">
+                    <div className="btn-group" role="group" aria-label="Basic example">
                         <button className='btn btn-warning' onClick={clickToBackHandler}>Voltar</button>
                         <button type='submit' className='btn btn-success float-left' onClick={e => onSubmitChange(e)}>Atualizar</button>
                     </div>
@@ -90,7 +90,7 @@ const BrandEdit = () => {
             </div>
             <ColoredLine color="black"/>
             <div className='container d-flex justify-content-center'>
-                <div class="btn-group" role="group" aria-label="Basic example">
+                <div className="btn-group" role="group" aria-label="Basic example">
                     <button className='btn btn-secondary' onClick={clickToBackHome}>Home</button>
                 </div>
             </div>
