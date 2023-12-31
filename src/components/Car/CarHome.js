@@ -143,7 +143,7 @@ const CarHome = () => {
                                 <div className='col-6'>
                                     <div className="mt-2">
                                         <label className="form-label"> Ano:</label>
-                                        <input type="text" className="form-control" id="year" placeholder="Insira ano do modelo" name="year" onChange={e => changeCarFieldHandler(e)} />
+                                        <input type="number" min="1900" max="2099" step="1" className="form-control" id="year" placeholder="Insira ano do modelo" name="year" onChange={e => changeCarFieldHandler(e)} />
                                     </div>
                                 </div>
                                 <div className='col-6'>
