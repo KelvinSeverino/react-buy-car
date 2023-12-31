@@ -55,7 +55,7 @@ const Home = () => {
                             <h4 className="my-0 fw-normal">Cores (CRUD)</h4>
                         </div>
                         <div className="card-body">
-                            <Link type="button" className="w-100 btn btn-lg btn-primary" to="/cores">Abrir</Link>
+                            <Link type="button" className="w-100 btn btn-lg btn-success" to="/cores">Abrir</Link>
                         </div>
                     </div>
                 </div>

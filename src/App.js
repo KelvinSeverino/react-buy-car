@@ -11,6 +11,9 @@ import BrandEdit from './components/Brand/BrandEdit';
 import ModelHome from './components/Model/ModelHome';
 import ModelView from './components/Model/ModelView';
 import ModelEdit from './components/Model/ModelEdit';
+import ColorHome from './components/Color/ColorHome';
+import ColorView from './components/Color/ColorView';
+import ColorEdit from './components/Color/ColorEdit';
 import {
   BrowserRouter as Router,
   Route,
@@ -26,12 +29,18 @@ function App() {
           <Route exact path="/veiculos" element={<CarHome/>} />
           <Route exact path="/veiculos/view/:id" element={<CarView/>} />
           <Route exact path="/veiculos/edit/:id" element={<CarEdit/>} />
+
           <Route exact path="/marcas" element={<BrandHome/>} />
           <Route exact path="/marcas/view/:id" element={<BrandView/>} />
           <Route exact path="/marcas/edit/:id" element={<BrandEdit/>} />
+
           <Route exact path="/modelos" element={<ModelHome/>} />
           <Route exact path="/modelos/view/:id" element={<ModelView/>} />
           <Route exact path="/modelos/edit/:id" element={<ModelEdit/>} />
+
+          <Route exact path="/cores" element={<ColorHome/>} />
+          <Route exact path="/cores/view/:id" element={<ColorView/>} />
+          <Route exact path="/cores/edit/:id" element={<ColorEdit/>} />
 
           <Route path="*" element={<p>Path not resolved</p>} />
         </Routes>
