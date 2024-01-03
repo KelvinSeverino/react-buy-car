@@ -14,6 +14,7 @@ import ModelEdit from './components/Model/ModelEdit';
 import ColorHome from './components/Color/ColorHome';
 import ColorView from './components/Color/ColorView';
 import ColorEdit from './components/Color/ColorEdit';
+import SimulationHome from './components/Simulation/SimulationHome';
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +42,8 @@ function App() {
           <Route exact path="/cores" element={<ColorHome/>} />
           <Route exact path="/cores/view/:id" element={<ColorView/>} />
           <Route exact path="/cores/edit/:id" element={<ColorEdit/>} />
+          
+          <Route exact path="/simulacao" element={<SimulationHome/>} />
 
           <Route path="*" element={<p>Path not resolved</p>} />
         </Routes>

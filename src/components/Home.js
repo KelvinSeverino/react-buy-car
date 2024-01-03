@@ -13,7 +13,7 @@ const Home = () => {
                             <h4 className="my-0 fw-normal">Simulação Venda</h4>
                         </div>
                         <div className="card-body">
-                            <Link type="button" className="w-100 btn btn-lg btn-primary" to="/simulacao">Abrir</Link>
+                            <Link type="button" className="w-100 btn btn-lg btn-success" to="/simulacao">Abrir</Link>
                         </div>
                     </div>
                 </div>
